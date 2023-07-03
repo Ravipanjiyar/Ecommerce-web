@@ -1,0 +1,62 @@
+#home{
+    position: absolute;
+    height: 89vh;
+    width: 100%;
+    margin-top: 62px;
+}
+.prom{
+    color: white;
+    height: 64%;
+    width: 42%;
+    padding: 37px;
+    margin-left: 40rem;
+    margin-top: 122px;
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 34px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+
+}
+
+section .prom:hover .gradient{
+    opacity: 1;
+}
+.gradient{
+    position: absolute;
+    background-image: linear-gradient(0deg, rgb(109, 181, 218) , #d49b9b);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 34px;
+    opacity: 0;
+    z-index: -1;
+}
+
+section div span{
+    color: red;
+}
+
+.prom h5{
+    font-size: 1.7rem;
+    margin-bottom: 4px;
+}
+
+.prom h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.prom p{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin: 6px;
+    width: 94px;
+    height: 32px;
+    border-radius: 17px;
+    color: #ffffff;
+    background-color: black;
+}

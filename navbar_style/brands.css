@@ -1,0 +1,71 @@
+#brands{
+    background-image: url(../img/logos1.jpg);
+    position: absolute;
+    top: 796px;
+    height: 386px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+    margin-right: 27px;
+}
+
+.logo li{
+    text-decoration: none;
+}
+
+.logo li img{
+    height: 100px;
+    width: 190px;
+    margin: 24px;
+    margin-bottom: 4px;
+}
+
+
+.heading{
+    display: flex;
+    width: 26%;
+    justify-content: center;
+    align-items: center;
+    height: 41px;
+    position: relative;
+    left: 160px;
+    margin-top: 5px;
+    font-size: 27px;
+    /* border: 2px solid white; */
+}
+
+.transparent{
+    padding: 15px 15px 10px;
+    width: 544px;
+    margin-top: 23px;
+    position: absolute;
+    left: 623px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: rgba(225, 225, 225, 0.2);
+    border-radius: 33px;
+    border-top: 2px solid white;
+    backdrop-filter: blur(2rem);
+
+}
+
+.colors{
+    position: absolute;
+    background-image: linear-gradient(0deg, rgb(47 53 170) , #bdb1257a);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 34px;
+    /* opacity: 0; */
+    z-index: -1;
+}
